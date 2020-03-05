@@ -103,3 +103,6 @@ if __name__ == '__main__':
 #Create Template in variable and pipe into an HTML file using the os module.
 #for-loops may need to be unnested.
 #additional templates can be found at: http://www.free-css.com/free-css-templates
+
+#with open('myfile.txt') as my_new_file:
+#...     contents = my_new_file.read()
