@@ -105,4 +105,7 @@ if __name__ == '__main__':
 #additional templates can be found at: http://www.free-css.com/free-css-templates
 
 #with open('myfile.txt') as my_new_file:
-#...     contents = my_new_file.read()
+#...     contents = my_new_file.read() - Stores contents in a variable by opening and importing it into a variable
+
+#>>> with open('myfile.txt', mode='r') as myfile:
+#...     contents = myfile.read() - Stores file contents in 'a', 'r', or 'w' mode. (append, read, and write)
